@@ -1,5 +1,5 @@
 import yaml
-import xml.etree.ElementTree as  xml_tree
+import xml.etree.ElementTree as xml_tree
 
 #Open the feed.yaml file and read it into a var called "yaml_data"
 with open ('feed.yaml', 'r') as file:
@@ -55,8 +55,6 @@ for item in yaml_data['item']:
         'type': 'audio/mpeg',
         'length': item['length']
     })
-
-
 
 #Create a variable to store the output
 output_tree = xml_tree.ElementTree(rss_element)
