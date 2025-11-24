@@ -24,6 +24,6 @@ jobs:
       run: | #run set up like you're doing it on a new machine
         git config user.name Maldoran Gaming
         git config user.email maldoran.gaming@gmail.com
-        git add.
+        git add .
         git commit -m "Modified Feed"
         git push
